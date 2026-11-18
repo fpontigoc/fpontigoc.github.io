@@ -18,7 +18,9 @@ jobs:
       - uses: actions/checkout@v6
       - name: Descargar aplicación y mapas
         run: |
-          curl --fail --location --retry 3 'https://github.com/fpontigoc/fpontigoc.github.io/releases/download/v2026.11.17/TierraTectonica3D-20261117.tar.gz' --output app.tar.gz
+          mkdir partes
+          seq 0 139 | xargs -P 16 -I '{}' sh -c 'n=$(printf "%03d" "$1"); curl --fail --location --retry 3 "https://github.com/fpontigoc/fpontigoc.github.io/releases/download/v2026.11.17/TierraTectonica3D.tar.gz.part-${n}" --output "partes/TierraTectonica3D.tar.gz.part-${n}"' _ '{}'
+          cat partes/TierraTectonica3D.tar.gz.part-* > app.tar.gz
           echo 'c846480956b816822837acf9d6f1e0357e45986cd549c7326f4cd8d59d3c0308  app.tar.gz' | sha256sum --check
           mkdir site
           tar -xzf app.tar.gz -C site
