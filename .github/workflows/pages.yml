@@ -1,0 +1,32 @@
+name: Publicar Tierra Tectónica 3D
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Descargar aplicación y mapas
+        run: |
+          curl --fail --location --retry 3 'https://github.com/fpontigoc/fpontigoc.github.io/releases/download/v2026.11.17/TierraTectonica3D-20261117.tar.gz' --output app.tar.gz
+          echo 'c846480956b816822837acf9d6f1e0357e45986cd549c7326f4cd8d59d3c0308  app.tar.gz' | sha256sum --check
+          mkdir site
+          tar -xzf app.tar.gz -C site
+          test -f site/dist/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/dist
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
