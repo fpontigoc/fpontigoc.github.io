@@ -25,6 +25,10 @@ jobs:
           mkdir site
           tar -xzf app.tar.gz -C site
           test -f site/dist/index.html
+      - name: Aplicar interfaz verificada del 18 de noviembre
+        run: |
+          sha256sum --check updates/20261118-files.sha256
+          cp -R updates/20261118/. site/dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
