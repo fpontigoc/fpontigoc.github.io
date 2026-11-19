@@ -1,2 +1,4 @@
 # Scientific artifacts are checked by SHA256 against the local originals.
 /updates/20261118-utrecht/** -text
+
+/updates/20261119-start-deep/** -text

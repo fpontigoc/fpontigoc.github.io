@@ -12,4 +12,6 @@ Actualización del 18 de noviembre de 2026: brújula en todas las vistas 3D, ori
 
 Historia → Arabia y alrededores incorpora Utrecht UPM1.0 + gAPWP25, suplemento oficial Figshare v3, CC BY4.0. Contiene65edades cada5Ma de320Ma al presente, selección de unidades, seguimiento regional y fuentes por geometría. Los polígonos de restauración pueden solaparse o dejar vacíos; los circuitos de rotación no resolubles se omiten y documentan. Profundo conserva CAO2024; Historia global y sus capas siguen disponibles. Los documentos privados recibidos no se publican.
 
-Acceso regional: https://fpontigoc.github.io/?view=historia&model=utrecht&age=100
+Acceso regional: abrir la aplicación y seleccionar Historia → Arabia y alrededores.
+
+Inicio actualizado el19de noviembre de2026: la aplicación publicada abre siempre en Profundo, a1.800Ma. Los parámetros antiguos de vista o modelo de los marcadores no cambian esa pestaña inicial. Las otras pestañas se seleccionan dentro de la aplicación.

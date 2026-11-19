@@ -33,6 +33,10 @@ jobs:
         run: |
           sha256sum --check updates/20261118-utrecht-files.sha256
           cp -R updates/20261118-utrecht/. site/dist/
+      - name: Abrir siempre en Profundo
+        run: |
+          sha256sum --check updates/20261119-start-deep-files.sha256
+          cp -R updates/20261119-start-deep/. site/dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
