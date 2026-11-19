@@ -1,0 +1,543 @@
+{
+  "model": "Utrecht UPM1.0 + gAPWP25",
+  "revision": "figshare-v3-20261118",
+  "paper": "https://doi.org/10.1371/journal.pone.0346817",
+  "dataset": "https://doi.org/10.6084/m9.figshare.31021144.v3",
+  "license": "CC BY 4.0",
+  "frame": "Paleomagnético · eje de rotación",
+  "stepMa": 5,
+  "maxAgeMa": 320,
+  "region": "Arabia, Omán y entorno de Zagros",
+  "regionalFeatures": 245,
+  "sources": {
+    "Utrecht_Paleogeography_15Dec25.rot": "06d9322128c633cdfd5fccc0c8ae97a88a8eff15416e94efe72ad5923669afe6",
+    "gAPWP25.rot": "c1ce92bbedca80b13f747703eaa389c73c5c69bd2f1ddf94571bdc14798e1100",
+    "Continental polygons.gpml": "64a109fee390f36a8b1983a6eb3cf5899d8fb62162b231cdfdc7b3e045fd6c38",
+    "Paleolatitude_org_3.gpml": "a4ea149b14b93fa82bcbec5cbaa23a7aa67b8e992cc56802934d252d928300c9",
+    "Streched_Continents.gpml": "15c8860427850f412f58b33585615f3aeaced40b3a72d30ace13440812ccdf18"
+  },
+  "frames": [
+    {
+      "ageMa": 0,
+      "terrain": "terrains_0ma.json",
+      "context": "context_0ma.png",
+      "features": 245,
+      "terrainSha256": "6f81c6b625d192e318d3ade0d06e262f6b7cf89889503b9e83801c6c28e534c9",
+      "contextSha256": "8fcbcd3cf01c28f10b3b82ae41c1d29401ab122a59dcb8b37eb33d90d0ef8eb6"
+    },
+    {
+      "ageMa": 5,
+      "terrain": "terrains_5ma.json",
+      "context": "context_5ma.png",
+      "features": 245,
+      "terrainSha256": "a516233f09793eefcd566683b32866da00b39c1d0ee8d2528d288f1efaa14d9b",
+      "contextSha256": "9cfe1fb70455ead14b12803d4b26ac57cf034c12effae3fce1461246a00c18a1"
+    },
+    {
+      "ageMa": 10,
+      "terrain": "terrains_10ma.json",
+      "context": "context_10ma.png",
+      "features": 245,
+      "terrainSha256": "453b558068d7da39897f22456fb67a2017fb7b63ae176398c474c94ef5c57d0e",
+      "contextSha256": "df6c899665e856c2318c9fde500562298c6bb7637f69107c3047950759e4422e"
+    },
+    {
+      "ageMa": 15,
+      "terrain": "terrains_15ma.json",
+      "context": "context_15ma.png",
+      "features": 245,
+      "terrainSha256": "d3c968682d22d0d188d18f25679703e07ff6c11efe41fed5eb6edaed43810f04",
+      "contextSha256": "68c5d6e4fd3d0c57f4d511423bc1d7d84acfb46918e46ba2b378ce0f994fca68"
+    },
+    {
+      "ageMa": 20,
+      "terrain": "terrains_20ma.json",
+      "context": "context_20ma.png",
+      "features": 245,
+      "terrainSha256": "1f49c2a62c97ec14589f7fb5085470d97776b2070892401df8c120841a1c9b02",
+      "contextSha256": "9adc5cd80bdc899aca158d6ade7c0a3fe01ba5399fe3a1b38300a086164c1c59"
+    },
+    {
+      "ageMa": 25,
+      "terrain": "terrains_25ma.json",
+      "context": "context_25ma.png",
+      "features": 245,
+      "terrainSha256": "57bfdb79feafa17ae6e4fad69c5d0a72cef7fd1a18cf2ead3b512d2b65f243fe",
+      "contextSha256": "8e90ba87f99925a73bf6d62e5b8a8173ffd8c3d2ba97a3f2374bbc4360d84389"
+    },
+    {
+      "ageMa": 30,
+      "terrain": "terrains_30ma.json",
+      "context": "context_30ma.png",
+      "features": 245,
+      "terrainSha256": "703fdf4befb7749d412e42adf4e21b39275241c93145bb8c3e1cb436bce36e1e",
+      "contextSha256": "1270a485522d0bce3f48b28674ecbce7f63e995354c987fe79d3032b4493d923"
+    },
+    {
+      "ageMa": 35,
+      "terrain": "terrains_35ma.json",
+      "context": "context_35ma.png",
+      "features": 245,
+      "terrainSha256": "c45204f3b0a9c450375b132b171bc706c3a895c2e005dc041c0299d2b94a8934",
+      "contextSha256": "886561ad18dc0c4f05c4e3ff07fd6782755ec2c2fc6b3e61e59f0c19a60d1333"
+    },
+    {
+      "ageMa": 40,
+      "terrain": "terrains_40ma.json",
+      "context": "context_40ma.png",
+      "features": 245,
+      "terrainSha256": "3640a78611b73b9484dceabf6092c73c9c2c2787a1c60ecf6c873882e77192ba",
+      "contextSha256": "b87c3b2817cc6de7b5d5ced2a1f51832d553337a5f08114f42e4591eb33a9298"
+    },
+    {
+      "ageMa": 45,
+      "terrain": "terrains_45ma.json",
+      "context": "context_45ma.png",
+      "features": 245,
+      "terrainSha256": "2ccf5bbd812ca2d4f0934e1baff0deb5b218dbe6c73fa43afec2932807ba4741",
+      "contextSha256": "8992c6a90f6891581dfde5b29d105b9a9eb90e169eddc41f62bec84baf6485de"
+    },
+    {
+      "ageMa": 50,
+      "terrain": "terrains_50ma.json",
+      "context": "context_50ma.png",
+      "features": 245,
+      "terrainSha256": "29de2aec8eb6d266c4e5ac7004f5851f5f16c6723ebbf347aebed5daac3ed45e",
+      "contextSha256": "e63ac50bedaf2e25b7b569557a32a18d6aac93f61f1370b9868c861bf70361b4"
+    },
+    {
+      "ageMa": 55,
+      "terrain": "terrains_55ma.json",
+      "context": "context_55ma.png",
+      "features": 245,
+      "terrainSha256": "83f68b405106df1cbd0b0852b19d6ae5cf3a373b3809dc0f6b6b099ca8773fa9",
+      "contextSha256": "3ba47e50484757017ca13a7500e830e04eff89909c5ad81e7219baa8b9d6a034"
+    },
+    {
+      "ageMa": 60,
+      "terrain": "terrains_60ma.json",
+      "context": "context_60ma.png",
+      "features": 245,
+      "terrainSha256": "6a139177582670642b78b4c9c0a70336e11534bbb883173c284a2e54f8207a16",
+      "contextSha256": "e17be513e0ef5337cb309ea5c8ae371187d7d34256682f50a7a124953dd41821"
+    },
+    {
+      "ageMa": 65,
+      "terrain": "terrains_65ma.json",
+      "context": "context_65ma.png",
+      "features": 245,
+      "terrainSha256": "0705b4614fc107d90bf21d1b93afde6701bde9a312efd1601ea96f9a6185d650",
+      "contextSha256": "d750a179ee240c8628a93c8c29d04f3ecf79626fef28dd44c50eb8c2bc8345ae"
+    },
+    {
+      "ageMa": 70,
+      "terrain": "terrains_70ma.json",
+      "context": "context_70ma.png",
+      "features": 245,
+      "terrainSha256": "878ccd4b208612e9c77e5c515a7fdba5581529a0b4d5b64d4b11cb7a637f086d",
+      "contextSha256": "55bfbe3a414e819424e2c807bd25c8f09d86d844723acc958e7b89367e51d421"
+    },
+    {
+      "ageMa": 75,
+      "terrain": "terrains_75ma.json",
+      "context": "context_75ma.png",
+      "features": 245,
+      "terrainSha256": "84332b7a03ea6e57f37ff903db1d7426c64ba4a4a5088b41fca93043dabac675",
+      "contextSha256": "9318b911884e7b820dd9b9b1a308ee2e227d97f185a2c5f4e61ec1b0b527fe82"
+    },
+    {
+      "ageMa": 80,
+      "terrain": "terrains_80ma.json",
+      "context": "context_80ma.png",
+      "features": 243,
+      "terrainSha256": "42ba2628edfddcac463a81f49fe7259fe3d930cc6fd70bd6e7c287f77c7fe8e3",
+      "contextSha256": "0a7c7090723018a5f40eeaffc0050f8955cc3181b4ed774e2474cbfa7074a7e9"
+    },
+    {
+      "ageMa": 85,
+      "terrain": "terrains_85ma.json",
+      "context": "context_85ma.png",
+      "features": 242,
+      "terrainSha256": "e816aeb3f1d05a8a2ddf9f359bf7d043d04169d4caed03ddda7336e281aa01f0",
+      "contextSha256": "b94e056d80158934a9f1b972fc2e87d01d2cdbb8cc2540f76a2b3e007caa7f82"
+    },
+    {
+      "ageMa": 90,
+      "terrain": "terrains_90ma.json",
+      "context": "context_90ma.png",
+      "features": 242,
+      "terrainSha256": "68481bcaa2e028bd85e76b60d7eb446619fccbf05b56892231f83f3957d0be37",
+      "contextSha256": "0e133a4c3a056241a7e5a5d8a42dd483d89581f73c8c3989d29c2a81026b4b79"
+    },
+    {
+      "ageMa": 95,
+      "terrain": "terrains_95ma.json",
+      "context": "context_95ma.png",
+      "features": 242,
+      "terrainSha256": "d932f0e7b3aa7e93f1921a8101d5d312c687fc60d32664d6b32e87436cf1fd60",
+      "contextSha256": "7b17b721726cfa8e7beaf81370b04cfceb320c84f1eb6feb09bd2315b8b674b9"
+    },
+    {
+      "ageMa": 100,
+      "terrain": "terrains_100ma.json",
+      "context": "context_100ma.png",
+      "features": 239,
+      "terrainSha256": "82eb8b3e4b3a2831469b16038deb0f5ccecc4ce04b761db1c8c826fceedba228",
+      "contextSha256": "9760bfb3f77ea4ce8123921f9f6c856c44bb5fdd5b85cfc669b74c708bc92701"
+    },
+    {
+      "ageMa": 105,
+      "terrain": "terrains_105ma.json",
+      "context": "context_105ma.png",
+      "features": 236,
+      "terrainSha256": "d82b16e7f34c817d2260b4463fc709fdbf828e2c4323e20fa16685b4c351eba9",
+      "contextSha256": "2245bf7da8c159ed5acbd3006a7ab1fbc0f4f21a85aaaa772e91db2cc78e0a11"
+    },
+    {
+      "ageMa": 110,
+      "terrain": "terrains_110ma.json",
+      "context": "context_110ma.png",
+      "features": 73,
+      "terrainSha256": "9308487cd11b96a74827d512319df12bbd76ca7989dd6def21399b6ad9d743af",
+      "contextSha256": "357191194a3ac56366f51df401dac9f4410a6855c6d11f61c0b47cea6b514164"
+    },
+    {
+      "ageMa": 115,
+      "terrain": "terrains_115ma.json",
+      "context": "context_115ma.png",
+      "features": 72,
+      "terrainSha256": "e143359f0e682603486b74419b0580044f3e2af56da5387f3c6315357f76ce5f",
+      "contextSha256": "639dca9a237fccbd631b60321cc0cdbcdd6c5eb9ae5d044afe4ff01af45ab612"
+    },
+    {
+      "ageMa": 120,
+      "terrain": "terrains_120ma.json",
+      "context": "context_120ma.png",
+      "features": 72,
+      "terrainSha256": "eb1dc0c1e66186490ea8f2a99fa03c67a858d8ebf40c75020f5203a8383a7c57",
+      "contextSha256": "c24a3285d52c7430ef08ede0576bf8f1049f792b3b93619b8b101b550a65980a"
+    },
+    {
+      "ageMa": 125,
+      "terrain": "terrains_125ma.json",
+      "context": "context_125ma.png",
+      "features": 72,
+      "terrainSha256": "f1e696fac0a37b91eda682ac18f9f70ec28f87e7e851ed35b381b87f1eb3897f",
+      "contextSha256": "4fc96bb5fe94235faf7ed535ae3df2ab5d142eabddbec41b2151e98a0550e74a"
+    },
+    {
+      "ageMa": 130,
+      "terrain": "terrains_130ma.json",
+      "context": "context_130ma.png",
+      "features": 72,
+      "terrainSha256": "f988f7f2ebf00674c7c49c4c2bf5bde3ff66a524ec34509ed2f894e95978cf72",
+      "contextSha256": "042501c0d0cb637e5074207a8c92d0d9498baa2a113c273a804a71b0db410101"
+    },
+    {
+      "ageMa": 135,
+      "terrain": "terrains_135ma.json",
+      "context": "context_135ma.png",
+      "features": 72,
+      "terrainSha256": "f9fbfc19feda15d8b3e08e2e3c5bdb37a0e37f73caf1779aa06f174eea93899f",
+      "contextSha256": "88de85898adde1892613589ee998d5c4183897943338b3dd0b0053bd13445e9e"
+    },
+    {
+      "ageMa": 140,
+      "terrain": "terrains_140ma.json",
+      "context": "context_140ma.png",
+      "features": 72,
+      "terrainSha256": "63f2cc6b39338377b3f35a5bea61971dd90e115f0d915a3d7b67e4cc1d672e9d",
+      "contextSha256": "e828c1ce4821276d32b40a9d9163d296238bb5a70df21b58238d9a3fa1e99c5d"
+    },
+    {
+      "ageMa": 145,
+      "terrain": "terrains_145ma.json",
+      "context": "context_145ma.png",
+      "features": 72,
+      "terrainSha256": "61702ceecdeb30644b8de0278a041c4c789feac009a8775b7894c6afe0f36c0f",
+      "contextSha256": "aec5ca6210ae802b39e8651ba5ffe885920e02d58649706cc49f8079025cecbd"
+    },
+    {
+      "ageMa": 150,
+      "terrain": "terrains_150ma.json",
+      "context": "context_150ma.png",
+      "features": 72,
+      "terrainSha256": "d4526910ce14f51b23f62a3fb573c62e27120c0d5fca4e532e3648578d605064",
+      "contextSha256": "751b13a685f70a814dd85bc41e046dc20177a414eea07becf240150424f5dc7f"
+    },
+    {
+      "ageMa": 155,
+      "terrain": "terrains_155ma.json",
+      "context": "context_155ma.png",
+      "features": 62,
+      "terrainSha256": "46b343dbbb5db7eb0a7231f3933818d5f4236ff673238e058651874da92a19af",
+      "contextSha256": "e1db78cd63105b10a8ae55c9b829675f1285edd8fe77c6f75186c89aa2fdf03d"
+    },
+    {
+      "ageMa": 160,
+      "terrain": "terrains_160ma.json",
+      "context": "context_160ma.png",
+      "features": 61,
+      "terrainSha256": "01beaa580a8a9843b12c68bf108169b225d6284b22b895bd9f8e7f00f39e213c",
+      "contextSha256": "f1b99132d9fd2d0329714209b0c68db5d33ac1f5115944dde2be316790baa183"
+    },
+    {
+      "ageMa": 165,
+      "terrain": "terrains_165ma.json",
+      "context": "context_165ma.png",
+      "features": 61,
+      "terrainSha256": "3d0d751ee632b168027cd5cbb082955db3bf46a5cbcd3a685efd53cf6a71bce0",
+      "contextSha256": "578ebbb87fc4429d84b41468a0a99a656a744bca31d7ab9c1134a65cbeafd9d8"
+    },
+    {
+      "ageMa": 170,
+      "terrain": "terrains_170ma.json",
+      "context": "context_170ma.png",
+      "features": 60,
+      "terrainSha256": "01f9cbe709ec9956db54fe660fa4fdb4a42f413ae165bbfdd841105c21fa22f7",
+      "contextSha256": "054be8a63cb1b19f0172ffb7b5db9752399a4d15e562e0f89f246c42e0789c22"
+    },
+    {
+      "ageMa": 175,
+      "terrain": "terrains_175ma.json",
+      "context": "context_175ma.png",
+      "features": 59,
+      "terrainSha256": "35c055d9f3bd91dd2e8c9979ce54490fa2ef7baddb656d201b4f5dd40ccf92b2",
+      "contextSha256": "6ac147b342a875f2341741ea14608b8f3f98078ae9af350e09bb75562271bf2a"
+    },
+    {
+      "ageMa": 180,
+      "terrain": "terrains_180ma.json",
+      "context": "context_180ma.png",
+      "features": 59,
+      "terrainSha256": "4cd6a6df36718f3e3726c58093484e9e8395b7bc216f77d99850a5027090ecfb",
+      "contextSha256": "abd61d3bb8aebc8c4c6df26e093bdce1f58630f15aced468dc3c9f2959bd7d49"
+    },
+    {
+      "ageMa": 185,
+      "terrain": "terrains_185ma.json",
+      "context": "context_185ma.png",
+      "features": 56,
+      "terrainSha256": "0856c0dfec22328b0d9c14f1ece1eb63964fedc2a74e1157ac8a83f25f02436c",
+      "contextSha256": "10ff8744c4341058a5bbeab2cd4ad0b4646d129aed6cc66b09525fac74cc651b"
+    },
+    {
+      "ageMa": 190,
+      "terrain": "terrains_190ma.json",
+      "context": "context_190ma.png",
+      "features": 55,
+      "terrainSha256": "84199e61d2de08e3ad62549b790e0ffc573c03ef2835d0b72ffdeb1e898a2a9a",
+      "contextSha256": "ee916d4c1d24fb2814ff696d0058193efbc43751f80de21dffe6cd9a0f918a76"
+    },
+    {
+      "ageMa": 195,
+      "terrain": "terrains_195ma.json",
+      "context": "context_195ma.png",
+      "features": 55,
+      "terrainSha256": "2d055129b69870ba7fc97e287f049cbe4a85bdaf3ca657e2910ff92935a6c841",
+      "contextSha256": "95d51659861091a03dc870645679ff5e86f29214c9072011a0724a382d4ce662"
+    },
+    {
+      "ageMa": 200,
+      "terrain": "terrains_200ma.json",
+      "context": "context_200ma.png",
+      "features": 55,
+      "terrainSha256": "72b418146980483ae6467b484869fe4d8c509f415d70437ef75185826eac949d",
+      "contextSha256": "790376ef5591b8744d0fbe4bb373f8972bcb91d7b45b3fe61e0155eda25a72a7"
+    },
+    {
+      "ageMa": 205,
+      "terrain": "terrains_205ma.json",
+      "context": "context_205ma.png",
+      "features": 62,
+      "terrainSha256": "bf2111dad0c3e70a9c44a3ad55d75873a8c58d58c772b887bca2cbfbac6297cb",
+      "contextSha256": "abce57a1e7cea5a8112ff643c7166cb0dbd429d7a82ca3ac3690104b5e9cf41d"
+    },
+    {
+      "ageMa": 210,
+      "terrain": "terrains_210ma.json",
+      "context": "context_210ma.png",
+      "features": 62,
+      "terrainSha256": "a5b0f82a5828287890a04e8c36a9e4958bb58b984a8e0c10ec11d2c59c6a83e7",
+      "contextSha256": "14d796ca2f2753653d97fda04b95a19acbb2e2b4c4542cffc6a6c33fcebf8702"
+    },
+    {
+      "ageMa": 215,
+      "terrain": "terrains_215ma.json",
+      "context": "context_215ma.png",
+      "features": 62,
+      "terrainSha256": "db542262bbd1bb6cb871cc3eb553ab9fd08fc18fb36becb2e7e8489a7cbc2183",
+      "contextSha256": "0f63b75879f8062b8a7a5b649c90c2aea2eff634971de8642608e6bf8e73665f"
+    },
+    {
+      "ageMa": 220,
+      "terrain": "terrains_220ma.json",
+      "context": "context_220ma.png",
+      "features": 62,
+      "terrainSha256": "f4b141052ecf0d3f0a5937cb2431296d244952cece22cef53f9c18f440e23b0c",
+      "contextSha256": "97def401234abb4647071f8b4bf64ad83b11b33158d186d8e66182609aee64fc"
+    },
+    {
+      "ageMa": 225,
+      "terrain": "terrains_225ma.json",
+      "context": "context_225ma.png",
+      "features": 62,
+      "terrainSha256": "d4fa4525fe5e652e431eb48cd2e2581822ccc68df26551f3a493797e70ccdfb2",
+      "contextSha256": "f9a1b8cf20048f4ad953b9171a43b29beba2ffddb5cd644a3e9269059a213388"
+    },
+    {
+      "ageMa": 230,
+      "terrain": "terrains_230ma.json",
+      "context": "context_230ma.png",
+      "features": 62,
+      "terrainSha256": "2318dcb91f187d953d9539ca1bd8396ad849beb9685495bd8160fa8e7defe822",
+      "contextSha256": "b0bc858d645dee57c1d19c15a91897defa6d00942a55acbb0bc32d4d5793eae8"
+    },
+    {
+      "ageMa": 235,
+      "terrain": "terrains_235ma.json",
+      "context": "context_235ma.png",
+      "features": 62,
+      "terrainSha256": "be7a3b824f5325fc5d4aeb6609f57b2856faec4892f11ab80fa8627d0c3ab63e",
+      "contextSha256": "299076c1a572bd9f258a67f4a204d1e2773837d955519a7e7ad1a30b82dc288f"
+    },
+    {
+      "ageMa": 240,
+      "terrain": "terrains_240ma.json",
+      "context": "context_240ma.png",
+      "features": 62,
+      "terrainSha256": "38ac97030bd7797d61991c5e6fa8c8c60d8d68d60c78c8243af34a576d0e32de",
+      "contextSha256": "a70973e8f47240c841aa08df977f0a0579d56ae7bdcaec32e18b7016ade6f7d5"
+    },
+    {
+      "ageMa": 245,
+      "terrain": "terrains_245ma.json",
+      "context": "context_245ma.png",
+      "features": 62,
+      "terrainSha256": "33ff73fdfb23ef392f3919b362209a2de5873b5678a9c04382c6792caac2e5f9",
+      "contextSha256": "9a62d80590149c71832db435b88637056a1f361866998a3320f61d6651e886c3"
+    },
+    {
+      "ageMa": 250,
+      "terrain": "terrains_250ma.json",
+      "context": "context_250ma.png",
+      "features": 62,
+      "terrainSha256": "5af2e2519623003c5c6de183da3cce34443f12005d8cdbe8ded792df41cd29dc",
+      "contextSha256": "274fd442398b1b71d64295c5adb4039dfe9e6cc6f234e29dd33cc58c2b78cc9c"
+    },
+    {
+      "ageMa": 255,
+      "terrain": "terrains_255ma.json",
+      "context": "context_255ma.png",
+      "features": 62,
+      "terrainSha256": "1e72b9057dfcc0efff9aad5a832d5be76552ed08cb290acb0b27d801d10ba4d4",
+      "contextSha256": "5a735513b5d128568f5c98249d4e5d6502cc53feaf316f477f6c2545bbb160d8"
+    },
+    {
+      "ageMa": 260,
+      "terrain": "terrains_260ma.json",
+      "context": "context_260ma.png",
+      "features": 62,
+      "terrainSha256": "5770a4fdd088d59f530d297025b985fc0c0b489528ea8d62c3a2fefe05f7e0f7",
+      "contextSha256": "fc28189bbf2250ad3800e8aff9e63c836ce673b12165f6c6d65964e42adb1892"
+    },
+    {
+      "ageMa": 265,
+      "terrain": "terrains_265ma.json",
+      "context": "context_265ma.png",
+      "features": 62,
+      "terrainSha256": "dd5819aabe1768492228c2c89e34b26c12b4ea238f2cdc981b76dc55b0377b84",
+      "contextSha256": "845c90afcd5181ba24a8969c6ba5899ffb008df39d785a1d1b88e045b43eceea"
+    },
+    {
+      "ageMa": 270,
+      "terrain": "terrains_270ma.json",
+      "context": "context_270ma.png",
+      "features": 62,
+      "terrainSha256": "5b2f79dacdc566d7aff95db421d26770fc2703d749dc6c00cbe50a65f6ad335e",
+      "contextSha256": "a71815ae4e661201010a577919bb7c3a427ea4674e8246b5fa89a1e775d62bef"
+    },
+    {
+      "ageMa": 275,
+      "terrain": "terrains_275ma.json",
+      "context": "context_275ma.png",
+      "features": 62,
+      "terrainSha256": "6c78c2d9a6d348caf9845a22c7a01049cc03b6112fd4cbaefc07a2321cd0018a",
+      "contextSha256": "95b257a240189a93242c7dfe37ef424ff42fdb73f9ecc939b14f8b6d916eb641"
+    },
+    {
+      "ageMa": 280,
+      "terrain": "terrains_280ma.json",
+      "context": "context_280ma.png",
+      "features": 62,
+      "terrainSha256": "f1e9a1e3a2dcd5850b37af0e93506cdf4f40eb2e4c64234c1b36dd7d15c0b845",
+      "contextSha256": "146773ed6786a5c4c4a3fafa51f7d5579003218177e63c92a560a0d9df4b1e80"
+    },
+    {
+      "ageMa": 285,
+      "terrain": "terrains_285ma.json",
+      "context": "context_285ma.png",
+      "features": 62,
+      "terrainSha256": "9a59157f0c7dcb320cf4a1964a4c0505ec3b38bd706e5b0dceb007417675703e",
+      "contextSha256": "44721b952fdf2eabdcaa164c02d3a5f8c33b8d141db4e1cd3b654835b662d95c"
+    },
+    {
+      "ageMa": 290,
+      "terrain": "terrains_290ma.json",
+      "context": "context_290ma.png",
+      "features": 62,
+      "terrainSha256": "2dc7c4a258ebc2b797872368dcc09088ade549ee75508db372e15a87a8f40a9f",
+      "contextSha256": "ee39295ea5ab7fc56a0916b6a68e185ee7cd9f89769c9adf16817250369afa68"
+    },
+    {
+      "ageMa": 295,
+      "terrain": "terrains_295ma.json",
+      "context": "context_295ma.png",
+      "features": 62,
+      "terrainSha256": "52ea4d873b07751ad488964780ab9c48cecc6f1d69326429f9efa1ab0782f5c5",
+      "contextSha256": "c56ccfa7d0b96d9b5ee3aa585013d19c6c3cf86e4df1615387448fd85fcff2d5"
+    },
+    {
+      "ageMa": 300,
+      "terrain": "terrains_300ma.json",
+      "context": "context_300ma.png",
+      "features": 62,
+      "terrainSha256": "03ac2dbe5e98df1b504b9c932ad7645f8b9f95615e69f4fdf02ec108de3ef92e",
+      "contextSha256": "ed8834db25aad57101e29324b586fb92c401bd3730cf83e31ab675aed679ab64"
+    },
+    {
+      "ageMa": 305,
+      "terrain": "terrains_305ma.json",
+      "context": "context_305ma.png",
+      "features": 62,
+      "terrainSha256": "29c8eec3a79f5651447ef686abf450dc9b1915d88643ff90aacb0ef9a11c1fe9",
+      "contextSha256": "ca3c49b0862822cceab513b742bde645e8b52e2f464c20d74203443c1ed60026"
+    },
+    {
+      "ageMa": 310,
+      "terrain": "terrains_310ma.json",
+      "context": "context_310ma.png",
+      "features": 62,
+      "terrainSha256": "309274da5eccf5a373cd2a1b1e43fedadde7f0583b56e9b505dedd1974c003fc",
+      "contextSha256": "18640739f663260734e357d79daa8f261b64d3bbc6d1768d2added3c76561da7"
+    },
+    {
+      "ageMa": 315,
+      "terrain": "terrains_315ma.json",
+      "context": "context_315ma.png",
+      "features": 62,
+      "terrainSha256": "e78d0837f536458e2c67d6154028a7899c5b591316f5010e589db714f160120b",
+      "contextSha256": "17e0c38b8b1c983725201721a85f8ef7c756b381cefc6ebabc86bb571e61ddf1"
+    },
+    {
+      "ageMa": 320,
+      "terrain": "terrains_320ma.json",
+      "context": "context_320ma.png",
+      "features": 62,
+      "terrainSha256": "56b8636ebbbf94dd8407a0f316baf7d6797388d90dccf57fa6cfb734d73f92ab",
+      "contextSha256": "62d390dd760239e41d51a129d98bd7c8a9277053d6b14830e729081e6cda55e5"
+    }
+  ],
+  "omittedRegionalTotal": 149,
+  "missingRotationPolicy": "Omit and record; never use identity for an unresolved circuit."
+}
