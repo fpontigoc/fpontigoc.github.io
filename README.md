@@ -15,3 +15,5 @@ Historia → Arabia y alrededores incorpora Utrecht UPM1.0 + gAPWP25, suplemento
 Acceso regional: abrir la aplicación y seleccionar Historia → Arabia y alrededores.
 
 Inicio actualizado el19de noviembre de2026: la aplicación publicada abre siempre en Profundo, a1.800Ma. Los parámetros antiguos de vista o modelo de los marcadores no cambian esa pestaña inicial. Las otras pestañas se seleccionan dentro de la aplicación.
+
+Actualización del 20 de noviembre de 2026: Datos de Arabia y alrededores resume la fecha del mapa visible, el número de unidades y las coordenadas de la región seguida (Arabia, Omán o Zagros). Informa cargas pendientes y fallidas conservando la fecha del mapa anterior. Los recuentos de omisiones se muestran solo con un mapa cargado. Presentación compacta compatible con paneles claros y oscuros; no se alteran los datos científicos.

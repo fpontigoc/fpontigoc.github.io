@@ -37,6 +37,10 @@ jobs:
         run: |
           sha256sum --check updates/20261119-start-deep-files.sha256
           cp -R updates/20261119-start-deep/. site/dist/
+      - name: Alinear datos regionales y mapa visible
+        run: |
+          sha256sum --check updates/20261120-front-files.sha256
+          cp -R updates/20261120-front/. site/dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
