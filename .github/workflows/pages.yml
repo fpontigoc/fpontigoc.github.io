@@ -41,6 +41,10 @@ jobs:
         run: |
           sha256sum --check updates/20261120-front-files.sha256
           cp -R updates/20261120-front/. site/dist/
+      - name: Explicar colores y ofrecer recorrido de seis paradas
+        run: |
+          sha256sum --check updates/20261120-guide-files.sha256
+          cp -R updates/20261120-guide/. site/dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
