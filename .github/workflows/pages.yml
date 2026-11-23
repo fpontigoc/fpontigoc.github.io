@@ -49,6 +49,10 @@ jobs:
         run: |
           sha256sum --check updates/20261120-comparison-files.sha256
           cp -R updates/20261120-comparison/. site/dist/
+      - name: Incorporar curvas regionales y procedencia científica
+        run: |
+          sha256sum --check updates/20261123-science-files.sha256
+          cp -R updates/20261123-science/. site/dist/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
